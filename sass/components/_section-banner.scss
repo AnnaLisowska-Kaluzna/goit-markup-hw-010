@@ -11,17 +11,17 @@
   background-repeat: no-repeat;
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px),
-  screen and (min-resolution: 192dpi) and (min-width: 320px) and (max-width: 767px),
-  screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px) {
-  .section-banner {
-    background-image: linear-gradient(
-        var(--background-gr-color),
-        var(--background-gr-color)
-      ),
-      url(/images/Imgmob@2x.jpg);
-  }
-}
+// @media screen and (min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px),
+//   screen and (min-resolution: 192dpi) and (min-width: 320px) and (max-width: 767px),
+//   screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px) {
+//   .section-banner {
+//     background-image: linear-gradient(
+//         var(--background-gr-color),
+//         var(--background-gr-color)
+//       ),
+//       url(/images/Imgmob@2x.jpg);
+//   }
+// }
 
 .banner {
   &__content {
@@ -90,17 +90,17 @@
     background-repeat: no-repeat;
   }
 
-  @media screen and (min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px),
-    screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1199px),
-    screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1199px) {
-    .section-banner {
-      background-image: linear-gradient(
-          var(--background-gr-color),
-          var(--background-gr-color)
-        ),
-        url(/images/Imgtab@2x.jpg);
-    }
-  }
+  // @media screen and (min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px),
+  //   screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1199px),
+  //   screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1199px) {
+  //   .section-banner {
+  //     background-image: linear-gradient(
+  //         var(--background-gr-color),
+  //         var(--background-gr-color)
+  //       ),
+  //       url(/images/Imgtab@2x.jpg);
+  //   }
+  // }
 
   .banner {
     &__content {

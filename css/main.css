@@ -526,12 +526,6 @@ img {
   background-repeat: no-repeat;
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px), screen and (min-resolution: 192dpi) and (min-width: 320px) and (max-width: 767px), screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px) {
-  .section-banner {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--background-gr-color)), to(var(--background-gr-color))), url(/images/Imgmob@2x.jpg);
-    background-image: linear-gradient(var(--background-gr-color), var(--background-gr-color)), url(/images/Imgmob@2x.jpg);
-  }
-}
 .banner__content {
   position: absolute;
   font-style: normal;
@@ -602,14 +596,6 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
   }
-}
-@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1199px), screen and (min-width: 768px) and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1199px), screen and (min-width: 768px) and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1199px) {
-  .section-banner {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--background-gr-color)), to(var(--background-gr-color))), url(/images/Imgtab@2x.jpg);
-    background-image: linear-gradient(var(--background-gr-color), var(--background-gr-color)), url(/images/Imgtab@2x.jpg);
-  }
-}
-@media screen and (min-width: 768px) {
   .banner__content {
     position: absolute;
     font-style: normal;
