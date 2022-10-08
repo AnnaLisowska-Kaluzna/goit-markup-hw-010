@@ -5,7 +5,7 @@
       var(--background-gr-color),
       var(--background-gr-color)
     ),
-    url(/images/Imgmob@1x.jpg);
+    url(../images/Imgmob@1x.jpg);
   margin: auto;
   background-size: cover;
   background-repeat: no-repeat;
@@ -19,7 +19,7 @@
         var(--background-gr-color),
         var(--background-gr-color)
       ),
-      url(/images/Imgmob@2x.jpg);
+      url(../images/Imgmob@2x.jpg);
   }
 }
 
@@ -84,7 +84,7 @@
         var(--background-gr-color),
         var(--background-gr-color)
       ),
-      url(/images/Imgtab@1x.jpg);
+      url(../images/Imgtab@1x.jpg);
     margin: auto;
     background-size: cover;
     background-repeat: no-repeat;
@@ -98,7 +98,7 @@
           var(--background-gr-color),
           var(--background-gr-color)
         ),
-        url(/images/Imgtab@2x.jpg);
+        url(../images/Imgtab@2x.jpg);
     }
   }
 
